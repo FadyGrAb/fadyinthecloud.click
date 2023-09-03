@@ -32,7 +32,7 @@ jobs:
         run: |
           cd ..
           git clone https://$TOKEN@github.com/fadygrab/fadygrab.github.io.git
-          cp fadyinthecloud.click/frontend/build/* fadygrab.github.io/
+          cp -r fadyinthecloud.click/frontend/build/* fadygrab.github.io/
           cd fadygrab.github.io
           git add .
           git commit -m "deploy"
