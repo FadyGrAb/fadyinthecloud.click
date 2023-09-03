@@ -31,9 +31,6 @@ jobs:
           TOKEN: ${{ secrets.TOKEN }}
         run: |
           cd ..
-          ls -l
-          cd ..
-          ls -l
           git clone https://$TOKEN@github.com/fadygrab/fadygrab.github.io.git
           cp fadyinthecloud.click/frontend/build/* fadygrab.github.io/
           cd fadygrab.github.io
