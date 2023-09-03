@@ -34,6 +34,8 @@ jobs:
           git clone https://$TOKEN@github.com/fadygrab/fadygrab.github.io.git
           cp -r fadyinthecloud.click/frontend/build/* fadygrab.github.io/
           cd fadygrab.github.io
+          git config --global user.email "githubactions@example.com"
+          git config --global user.name "Github Actions"
           git add .
           git commit -m "deploy"
           git push
