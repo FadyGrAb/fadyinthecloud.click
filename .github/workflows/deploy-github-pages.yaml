@@ -8,6 +8,11 @@ on:
     paths:
       - "forntend/*"
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   deploy-static-website:
     runs-on: "ubuntu-latest"
@@ -27,13 +32,13 @@ jobs:
           cd frontend
           npm ci
           npm run build
-
-      - name: Push to github.io
-        run: |
-          cd ..
-          git clone git@github.com:/fadygrab/fadygrab.github.io
-          cp fadyinthecloud.click/frontend/build/* fadygrab.github.io/
-          cd fadygrab.github.io
-          git add .
-          git commit -m "publish to prod"
-          git push
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          # Upload entire repository
+          path: "frontend/build/*"
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
