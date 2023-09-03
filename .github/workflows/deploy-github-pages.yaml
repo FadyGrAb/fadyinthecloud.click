@@ -30,6 +30,6 @@ jobs:
         env:
           TOKEN: ${{ secrets.TOKEN }}
         run: |
-          cd ..
+          cd ../..
           git clone https://$TOKEN@github.com/fadygrab/fadygrab.github.io.git
           pwd
