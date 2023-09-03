@@ -27,5 +27,9 @@ jobs:
           npm run build
 
       - name: push to fadygrab.github.io
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
         run: |
           cd ..
+          git clone https://$TOKEN@github.com/fadygrab/fadygrab.github.io.git
+          pwd
