@@ -5,13 +5,6 @@ on:
   push:
     branches:
       - prod
-    paths:
-      - "forntend/*"
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
 
 jobs:
   deploy-static-website:
@@ -32,13 +25,7 @@ jobs:
           cd frontend
           npm ci
           npm run build
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
-        with:
-          # Upload entire repository
-          path: "frontend/build/*"
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+
+      - name: push to fadygrab.github.io
+        run: |
+          cd ..
