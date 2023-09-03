@@ -1,0 +1,39 @@
+name: "Deploy website to github.io"
+run-name: "Deploy website Run: ${{ github.run_id }}"
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - prod
+    paths:
+      - "forntend/*"
+
+jobs:
+  deploy-static-website:
+    runs-on: "ubuntu-latest"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Node 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Build site
+        env:
+          CI: false # in order not to treat warning as errors. CI = true will treat warning as erros which is the default.
+        run: |
+          cd frontend-react-js
+          npm ci
+          npm run build
+
+      - name: Push to github.io
+        run: |
+          cd ..
+          git clone git@github.com:/fadygrab/fadygrab.github.io
+          cp fadyinthecloud.click/frontend/build/* fadygrab.github.io/
+          cd fadygrab.github.io
+          git add .
+          git commit -m "publish to prod"
+          git push
