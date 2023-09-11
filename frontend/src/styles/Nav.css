@@ -1,5 +1,5 @@
-@media screen and (max-width: 800px) {
-    .nav-a {
+@media screen and (max-width: 600px) {
+    .nav-a .nav-brand {
       float: none;
       width: 100%;
     }
@@ -19,8 +19,6 @@ nav {
 .nav-brand {
     font-size: x-large;
     font-weight: bolder;
-    list-style-type: none;
-    border-radius: 5%;
     margin: 30px;
     color: green;
     text-decoration: none;
