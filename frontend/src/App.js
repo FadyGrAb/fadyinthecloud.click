@@ -1,6 +1,7 @@
 import "./App.css";
 import Nav from "./components/Nav";
 import Sections from "./components/Section";
+import "./styles/Variables.css";
 
 function App() {
   const sectionNames = [

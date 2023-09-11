@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   /* font-family: -apple-system, BlinkMacSystemFont, 'Ubuntu Mono', 'Segoe UI', 'Roboto', 'Oxygen',

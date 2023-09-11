@@ -1,26 +1,19 @@
+@media screen and (max-width: 800px) {
+    .nav-a {
+      float: none;
+      width: 100%;
+    }
+  }
+
 nav {
     display: flex;
     background-color: black;
     position: fixed;
     top: 0;
     width: 100%;
-    height: 60px;
-}
-
-.nav-list {
-    display: flex;
-}
-
-.nav-list-item {
-    list-style-type: none;
-    border-radius: 5%;
-    white-space: nowrap;
-    margin: 0% 1% 0% 1%;
-    padding: 5px 15px 5px 15px;
-    font-size: large;
+    height: var(--nav-height);
     align-items: center;
-    justify-content: center;
-    display: flex;
+    overflow: hidden;
 }
 
 .nav-brand {
@@ -28,18 +21,23 @@ nav {
     font-weight: bolder;
     list-style-type: none;
     border-radius: 5%;
-    margin-right: 10px;
+    margin: 30px;
     color: green;
+    text-decoration: none;
+    display: block;
+    float: left;
 }
 
 
 .nav-a {
     text-decoration: none;
+    white-space: nowrap;
     color: inherit;
     text-align: center;
-    padding-bottom: 2%;
-}
-
-.nav-active {
+    margin: 0% 15px 0% 15px;
+    font-size: large;
     border-bottom: 3px dashed green;
+    display: block;
+    float: left;
+   
 }
