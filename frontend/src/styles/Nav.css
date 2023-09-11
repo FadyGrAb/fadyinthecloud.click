@@ -1,0 +1,45 @@
+nav {
+    display: flex;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list-item {
+    list-style-type: none;
+    border-radius: 5%;
+    white-space: nowrap;
+    margin: 0% 1% 0% 1%;
+    padding: 5px 15px 5px 15px;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.nav-brand {
+    font-size: x-large;
+    font-weight: bolder;
+    list-style-type: none;
+    border-radius: 5%;
+    margin-right: 10px;
+    color: green;
+}
+
+
+.nav-a {
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.nav-active {
+    border-bottom: 3px dashed green;
+}
