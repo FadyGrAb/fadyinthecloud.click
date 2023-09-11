@@ -1,12 +1,19 @@
 @media screen and (max-width: 600px) {
-    .nav-a .nav-brand {
+    .nav-item {
       float: none;
       width: 100%;
     }
+    .nav-brand {
+      margin: 0%;
+      padding: 0%;
+    }
+    #nav-bar {
+      height: var(--nav-responsive-height) !important;
+      display: block !important;
+    }
   }
 
-nav {
-    display: flex;
+#nav-bar {
     background-color: black;
     position: fixed;
     top: 0;
@@ -14,28 +21,29 @@ nav {
     height: var(--nav-height);
     align-items: center;
     overflow: hidden;
+    display: flex;
 }
 
 .nav-brand {
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: bolder;
-    margin: 30px;
     color: green;
     text-decoration: none;
-    display: block;
-    float: left;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
 }
-
 
 .nav-a {
     text-decoration: none;
     white-space: nowrap;
     color: inherit;
     text-align: center;
-    margin: 0% 15px 0% 15px;
-    font-size: large;
+    font-size: x-large;
     border-bottom: 3px dashed green;
-    display: block;
-    float: left;
-   
+}
+
+.nav-item {
+  display: block;
+  float: left;
+  margin: 10px;
 }

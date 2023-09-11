@@ -1,4 +1,10 @@
 
+@media screen and (max-width: 600px) {
+    .about-me, .journey, .lets-connect {
+        padding-top: var(--nav-responsive-height) !important;
+    }
+  }
+
 .about-me {
     height: 500px;
     background-color: black;
@@ -11,8 +17,6 @@
     background-color: black;
     padding-top: var(--nav-height);
     margin-bottom: 5px;
-
-
 }
 
 .lets-connect {
@@ -20,7 +24,5 @@
     background-color: black;
     padding-top: var(--nav-height);
     margin-bottom: 5px;
-
-
 }
 

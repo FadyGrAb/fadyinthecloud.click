@@ -1,3 +1,4 @@
 :root {
-    --nav-height: 50px
+    --nav-height: 70px;
+    --nav-responsive-height: 210px;
   }
