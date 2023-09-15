@@ -1,11 +1,7 @@
 
 @media screen and (max-width: 500px) {
-    .intro {
+    .section {
         padding-top: var(--nav-responsive-height) !important;
-    }
-
-    .about-me {
-        margin-top: var(--nav-responsive-height) !important;
     }
   }
 
@@ -39,8 +35,9 @@
     padding-bottom: var(--nav-height);
 }
 
+
 .intro .terminal {
-    height: 600px;
+    height: var(--terminal-height);
     width: auto;
 }
 

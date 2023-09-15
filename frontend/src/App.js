@@ -1,6 +1,6 @@
 import "./App.css";
 import Nav from "./components/Nav";
-import Sections from "./components/Section";
+import Sections from "./components/Sections";
 import "./styles/Variables.css";
 import AboutMe from "./content/AboutMe";
 import Journey from "./content/Journey";
@@ -32,7 +32,7 @@ function App() {
   ];
 
   return (
-    <div>
+    <div className="container">
       <Nav sections={sectionNames}></Nav>
       <Sections sections={sectionNames}></Sections>
     </div>

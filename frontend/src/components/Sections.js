@@ -1,4 +1,4 @@
-import "../styles/Section.css";
+import "../styles/Sections.css";
 
 const Sections = (props) => {
   const sections = props.sections.map((section, key) => {
