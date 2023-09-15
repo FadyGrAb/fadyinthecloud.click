@@ -11,8 +11,9 @@ const Nav = (props) => {
   return (
     <nav id="nav-bar">
       <a className="nav-item nav-brand" href="/">
-        FadyInTheCloud
+        YetAnotherDataGuy
       </a>
+
       {links}
     </nav>
   );

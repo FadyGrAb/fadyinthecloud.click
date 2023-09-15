@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .nav-item {
       float: none;
       width: 100%;
@@ -44,4 +44,9 @@
   display: block;
   float: left;
   margin: 10px;
+}
+
+.nav-logo {
+  width: 2%;
+  height: 40%;
 }

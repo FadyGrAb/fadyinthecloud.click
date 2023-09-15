@@ -3,8 +3,9 @@ import "../styles/Section.css";
 const Sections = (props) => {
   const sections = props.sections.map((section, key) => {
     return (
-      <div key={key} id={section.class} className={section.class}>
+      <div key={key} id={section.class} className={`${section.class} section`}>
         <h1>{section.name}</h1>
+        {section.content}
       </div>
     );
   });
