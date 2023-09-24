@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Patrick+Hand&family=Ubuntu+Mono&display=swap');
 
 html{
   scroll-behavior: smooth;
@@ -8,7 +8,7 @@ body {
   /* font-family: -apple-system, BlinkMacSystemFont, 'Ubuntu Mono', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif; */
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #212121;

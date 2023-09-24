@@ -1,20 +1,29 @@
 import "../styles/Nav.css";
 
 const Nav = (props) => {
-  const links = props.sections.map((section, key) => {
-    return (
-      <a key={key} className="nav-item nav-a" href={`#${section.class}`}>
-        {section.name}
-      </a>
-    );
-  });
   return (
     <nav id="nav-bar">
       <a className="nav-item nav-brand" href="/">
-        YetAnotherDataGuy
+        <span style={{ color: "red" }}>Y</span>et
+        <span style={{ color: "blue" }}> A</span>nother
+        <span style={{ color: "orange" }}> D</span>ata
+        <span style={{ color: "green" }}> G</span>uy
       </a>
-
-      {links}
+      <a className="nav-item nav-a" href="#about-me">
+        About Me
+      </a>
+      <a className="nav-item nav-a" href="#journey">
+        Journey
+      </a>
+      <a className="nav-item nav-a" href="#lets-connect">
+        Let's Connect
+      </a>
+      <a
+        className="nav-item nav-a nav-direct-link"
+        href="https://fadyinthecloud.click/data-analytics-made-easy"
+      >
+        Data Analytics Made Easy
+      </a>
     </nav>
   );
 };

@@ -1,18 +1,4 @@
-@media screen and (max-width: 500px) {
-    .nav-item {
-      float: none;
-      width: 100%;
-      /* margin: 10px 0px 10px 0px !important; */
-      padding: 0px 0px 10px 0px !important;
-    }
-    #nav-bar {
-      height: var(--nav-responsive-height) !important;
-      display: block !important;
-    }
-  }
-
 #nav-bar {
-    background-color: black;
     position: fixed;
     top: 0;
     width: 100%;
@@ -23,30 +9,48 @@
 }
 
 .nav-brand {
-    font-size: xx-large;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2em;
     font-weight: bolder;
-    color: green;
+    color: white;
     text-decoration: none;
     text-align: center;
     padding: 10px 0px 10px 0px;
+    width: 8em;
 }
 
 .nav-a {
     text-decoration: none;
     white-space: nowrap;
-    color: inherit;
+    color: black;
     text-align: center;
-    font-size: x-large;
-    border-bottom: 3px dashed green;
+    font-size: 1.25em;
+    font-weight: bolder;
+    padding: 0 10px 0 10px;
+    border-radius: 10px;
+    width: 6.5em;
+    background-color: white;
 }
 
 .nav-item {
   display: block;
   float: left;
-  margin: 10px;
+  margin: 5px;
 }
 
 .nav-logo {
   width: 2%;
   height: 40%;
+}
+
+.nav-intro {
+  width: 0;
+}
+.nav-direct-link {
+  background-color: inherit;
+  color: white;
+}
+
+#nav-bar .icon {
+  display: none;
 }
