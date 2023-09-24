@@ -1,21 +1,36 @@
+@media screen and (max-width: 900px) {
+    .section {
+        /* position: relative !important; */
+        padding-top: var(--nav-responsive-height) !important;
+    }
+    
+}
+
 .about-me {
     padding-top: var(--nav-height);
     margin-bottom: 5px;
+    height: 600px;
 }
 
 .journey {
     padding-top: var(--nav-height);
     margin-bottom: 5px;
+    height: 600px;
+
 }
 
 .lets-connect {
     padding-top: var(--nav-height);
     margin-bottom: 5px;
+    height: 600px;
+
 }
 
 .intro {
     padding: var(--nav-height) 50px 50px 50px;
     margin-bottom: 5px;
+    height: 600px;
+
 }
 
 .section {

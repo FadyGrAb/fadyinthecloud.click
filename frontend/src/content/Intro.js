@@ -1,5 +1,5 @@
 const Intro = () => {
-  return <p>Hello</p>;
+  return <p>Intro</p>;
 };
 
 export default Intro;
