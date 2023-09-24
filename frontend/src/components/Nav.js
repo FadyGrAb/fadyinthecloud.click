@@ -5,9 +5,9 @@ const Nav = (props) => {
     <nav id="nav-bar">
       <a className="nav-item nav-brand" href="/">
         <span style={{ color: "red" }}>Y</span>et
-        <span style={{ color: "blue" }}> A</span>nother
-        <span style={{ color: "orange" }}> D</span>ata
-        <span style={{ color: "green" }}> G</span>uy
+        <span style={{ color: "blue" }}>&nbsp;A</span>nother
+        <span style={{ color: "orange" }}>&nbsp;D</span>ata
+        <span style={{ color: "green" }}>&nbsp;G</span>uy
       </a>
       <a className="nav-item nav-a" href="#about-me">
         About Me
@@ -22,7 +22,7 @@ const Nav = (props) => {
         className="nav-item nav-a nav-direct-link"
         href="https://fadyinthecloud.click/data-analytics-made-easy"
       >
-        Data Analytics Made Easy
+        Data Analytics Made Easy!
       </a>
     </nav>
   );

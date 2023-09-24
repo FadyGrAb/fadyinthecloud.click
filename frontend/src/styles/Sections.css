@@ -23,38 +23,3 @@
     padding-right: 20px;
     padding-bottom: var(--nav-height);
 }
-
-
-.intro .terminal {
-    height: var(--terminal-height);
-    width: auto;
-}
-
-.intro .terminal .control {
-    height: 40px;
-    width: 100%;
-    background-color: #212121;
-    border-radius: 10px 10px 0 0;
-}
-
-.intro .terminal .control .x-button {
-    width: 40px;
-    height: 100%;
-    color: white;
-    background-color: rgb(133, 35, 35);
-    font-size: x-large;
-    border-radius: 0 10px 0 0;
-    justify-content: center;
-    line-height: 100%;
-    float: right;
-    display: flex;
-    align-items: center;
-}
-
-.intro .terminal .shell {
-    border: 3px solid #212121;
-    border-top: 0px;
-    height: 100%;
-    width: auto;
-    margin-bottom: 50px;
-}

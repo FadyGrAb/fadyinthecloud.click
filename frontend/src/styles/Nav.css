@@ -1,41 +1,57 @@
+@media screen and (max-width: 1000px){
+  #nav-bar {
+    display: block !important;
+    height: var(--nav-responsive-height) !important;
+  }
+  .nav-item {
+    display: block !important;
+    height: auto !important;
+    margin: auto !important;
+    width: auto !important;
+  }
+  .nav-direct-link {
+    height: auto !important;
+  }
+}
+
+
 #nav-bar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: var(--nav-height);
-    align-items: center;
-    overflow: hidden;
-    display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: var(--nav-height);
+  align-items: center;
+  overflow: hidden;
+  display: flex;
+  background-color: #212100;
 }
 
 .nav-brand {
-    font-family: 'Patrick Hand', cursive;
-    font-size: 2em;
-    font-weight: bolder;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    padding: 10px 0px 10px 0px;
-    width: 8em;
+  font-family: 'Patrick Hand', cursive;
+  white-space: nowrap;
+  font-size: 2em;
+  font-weight: bolder;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 20px 10px 20px;
 }
 
 .nav-a {
-    text-decoration: none;
-    white-space: nowrap;
-    color: black;
-    text-align: center;
-    font-size: 1.25em;
-    font-weight: bolder;
-    padding: 0 10px 0 10px;
-    border-radius: 10px;
-    width: 6.5em;
-    background-color: white;
+  text-decoration: none;
+  white-space: nowrap;
+  color: white;
+  font-size: 1.25em;
+  font-weight: bolder;
+  width: 7em;
 }
 
 .nav-item {
-  display: block;
-  float: left;
-  margin: 5px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
 }
 
 .nav-logo {
@@ -43,14 +59,24 @@
   height: 40%;
 }
 
-.nav-intro {
-  width: 0;
-}
 .nav-direct-link {
   background-color: inherit;
-  color: white;
+  font-size: medium;
+  color: orange;
+  width: 13em;
+  padding: 10px 30px;
+  margin-left: 50px;
 }
 
 #nav-bar .icon {
   display: none;
+}
+
+.nav-a:hover {
+  color: black;
+  background-color: white;
+}
+.nav-direct-link:hover {
+  background-color: orange;
+  color: #212121;
 }
