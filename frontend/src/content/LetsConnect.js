@@ -1,7 +1,7 @@
 const LetsConnect = () => {
   return (
     <div>
-      <p>Let's connect</p>
+      <h2>Let's connect</h2>
     </div>
   );
 };

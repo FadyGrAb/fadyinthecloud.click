@@ -22,7 +22,7 @@ const Nav = (props) => {
         className="nav-item nav-a nav-direct-link"
         href="https://fadyinthecloud.click/data-analytics-made-easy"
       >
-        Data Analytics Made Easy!
+        Data Analytics Made Easy Series!
       </a>
     </nav>
   );

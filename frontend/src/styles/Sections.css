@@ -37,4 +37,9 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: var(--nav-height);
+    background-color: none;
+}
+
+.content {
+    background-color: #212121;
 }

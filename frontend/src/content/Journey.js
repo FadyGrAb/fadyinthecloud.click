@@ -1,7 +1,7 @@
 const Journey = () => {
   return (
     <div>
-      <p>Journey</p>
+      <h2>Journey</h2>
     </div>
   );
 };
