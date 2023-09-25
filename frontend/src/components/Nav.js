@@ -18,15 +18,18 @@ const Nav = (props) => {
       <a className="nav-item nav-a" href="#lets-connect">
         Let's Connect
       </a>
-      <a className="nav-item nav-a" href="../files/FadyAbdelmassih-resume.pdf">
+      <a
+        className="nav-item nav-a nav-download-link"
+        href="../files/FadyAbdelmassih-resume.pdf"
+        download="fadyAbdelmassih-resume.pdf"
+        target="_blank"
+        rel="noreferrer"
+      >
         Download My resume
       </a>
       <a
         className="nav-item nav-a nav-direct-link"
         href="https://fadyinthecloud.click/data-analytics-made-easy"
-        download="fadyAbdelmassih-resume"
-        target="_blank"
-        rel="noreferrer"
       >
         Data Analytics Made Easy Series!
       </a>
