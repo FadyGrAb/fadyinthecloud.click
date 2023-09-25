@@ -1,7 +1,9 @@
 @media screen and (max-width: 900px) {
+    .sections-container {
+        padding: 0 !important;
+    }
     .section {
-        padding-top: var(--nav-responsive-height) !important;
-        padding-bottom: 0 !important;
+        padding: var(--nav-responsive-height) 5px 0 2px !important;
     }
     .content {
         display: block !important;
