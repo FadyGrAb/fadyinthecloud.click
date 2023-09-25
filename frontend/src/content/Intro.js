@@ -1,8 +1,10 @@
 const Intro = () => {
   return (
-    <div className="content">
+    <div className="subsection">
       <h2>Intro</h2>
-      <p>Hello My name is fady</p>
+      <div className="content">
+        <p>This is the intro</p>
+      </div>
     </div>
   );
 };

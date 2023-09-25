@@ -12,6 +12,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #212121;
+  background: fixed;
+  background-image: url("./images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   color: white;
 }
 

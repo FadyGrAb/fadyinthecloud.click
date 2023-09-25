@@ -1,4 +1,5 @@
 import "../styles/Nav.css";
+import resume from "../files/FadyAbdelmassih-resume.pdf";
 
 const Nav = (props) => {
   return (
@@ -20,7 +21,7 @@ const Nav = (props) => {
       </a>
       <a
         className="nav-item nav-a nav-download-link"
-        href="../files/FadyAbdelmassih-resume.pdf"
+        href={resume}
         download="fadyAbdelmassih-resume.pdf"
         target="_blank"
         rel="noreferrer"
