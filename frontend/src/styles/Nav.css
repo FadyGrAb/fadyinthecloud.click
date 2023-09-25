@@ -1,4 +1,4 @@
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 700px){
   #nav-bar {
     display: block !important;
     height: var(--nav-responsive-height) !important;
@@ -43,7 +43,8 @@
   color: white;
   font-size: 1.25em;
   font-weight: bolder;
-  width: 7em;
+  width: 100%;
+  padding: 0 10px;
 }
 
 .nav-item {
@@ -52,6 +53,8 @@
   align-items: center;
   justify-content: space-around;
   height: 100%;
+  width: auto;
+  margin: 0 0px;
 }
 
 .nav-logo {

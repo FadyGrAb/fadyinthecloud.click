@@ -43,3 +43,7 @@
 .content {
     background-color: #212121;
 }
+
+.section h2 {
+    color: orange;
+}
