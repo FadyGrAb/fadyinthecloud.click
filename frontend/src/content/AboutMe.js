@@ -26,7 +26,7 @@ const AboutMe = () => {
             myself!
           </p>
           <p>
-            Currently, I hold tow roles. One, as a
+            Currently, I hold two roles. One, as a
             <i> Field Maintenance Area Manager</i> serving hundreds of mobile
             sites with a team of 20+ skilled engineers and technicians. And the
             other is <i>Data Analytics SME</i> where I support the whole Managed
