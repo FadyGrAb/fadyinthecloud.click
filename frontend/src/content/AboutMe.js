@@ -43,7 +43,11 @@ const AboutMe = () => {
             Ah! I almost forgot! I love sports (weight lifting and running
             mostly), playing guitar, I enjoy technical writing (I write on
             dev.to, check out my "
-            <a href="#" rel="noreferrer" target="_blank">
+            <a
+              href="https://dev.to/fadygrab/series/23244"
+              rel="noreferrer"
+              target="_blank"
+            >
               Rust learning Series
             </a>
             " 🦀🦀), and I love Rubik's Cubes 😉
