@@ -12,10 +12,10 @@ const Nav = (props) => {
         <span style={{ color: "orange" }}>Fady&nbsp;Abdelmassih</span>
       </a>
       <a className="nav-item nav-a" href="#about-me">
-        About Me
+        My Story
       </a>
       <a className="nav-item nav-a" href="#journey">
-        Journey
+        My Journey
       </a>
       <a className="nav-item nav-a" href="#lets-connect">
         Let's Connect

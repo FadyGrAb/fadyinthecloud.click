@@ -3,11 +3,12 @@ import githubLogo from "../images/github-logo.png";
 import devLogo from "../images/dev-logo.png";
 import youTubeLogo from "../images/youtube-icon.png";
 import xLogo from "../images/x-logo.png";
+import emailLogo from "../images/email-logo.png";
 
 const LetsConnect = () => {
   return (
     <div className="subsection">
-      <h2>LetsConnect</h2>
+      <h2>Let's Connect</h2>
       <div className="content" target="_blank">
         <a
           href="https://www.linkedin.com/in/fady-abdelmassih/"
@@ -31,6 +32,13 @@ const LetsConnect = () => {
         </a>
         <a href="https://twitter.com/fadyGrAb" target="_blank" rel="noreferrer">
           X (Twitter) <img src={xLogo} alt="twitter"></img>
+        </a>
+        <a
+          href="mailto:fady.m.louis@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Email <img src={emailLogo} alt="gmail"></img>
         </a>
       </div>
     </div>

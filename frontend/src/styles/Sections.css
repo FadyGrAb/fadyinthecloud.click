@@ -1,4 +1,4 @@
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
     .sections-container {
         padding: 0 !important;
     }
@@ -8,10 +8,13 @@
     .content {
         display: block !important;
     }
+    .content p {
+        text-align: center !important;
+    }
     img.profile-pic {
         margin: auto !important;
     }
-    .lets-connect a{
+    .lets-connect a {
         display: flex;
         justify-content: center;
         margin: auto;
@@ -30,11 +33,9 @@
     padding: 5%;
 }
 
-
 .section h2 {
     color: orange;
     margin: 0;
-    margin-left: 10px;
 }
 
 .sections-container {
@@ -46,13 +47,17 @@
     justify-content: center;
 }
 
-.content img {
+.about-me img {
     width: 100%;
-
 }
+
 .content p {
-    text-align: center;
+    text-align: left;
     margin-top: 0;
+}
+
+.content .text {
+    display: block;
 }
 
 img.profile-pic {
@@ -83,5 +88,46 @@ img.profile-pic {
 }
 
 .lets-connect a:hover {
+    color: orange;
+}
+
+.journey .content {
+    display: block;
+}
+
+.journey-stage {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    margin-bottom: 10%;
+}
+
+.journey-image-container {
+    height: auto;
+    display: block;
+    width: 20%;
+    margin-right: 5%;
+}
+
+.journey-image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+    border: solid 3px orange;
+    background-color: white;
+    padding: 0%;
+    margin: 0%;
+}
+
+.journey-stage p {
+    width: 80%;
+}
+.journey-separator {
+    height: 90%;
+    border-left: solid 3px orange;
+    margin-left: 20%;
+}
+
+p.section-intro {
     color: orange;
 }
