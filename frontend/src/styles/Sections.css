@@ -98,7 +98,6 @@ img.profile-pic {
 .journey-stage {
     display: flex;
     width: 100%;
-    height: 20%;
     margin-bottom: 10%;
 }
 
@@ -119,15 +118,23 @@ img.profile-pic {
     margin: 0%;
 }
 
-.journey-stage p {
+.journey-stage .text {
     width: 80%;
 }
 .journey-separator {
-    height: 90%;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 110%;
     border-left: solid 3px orange;
     margin-left: 20%;
 }
 
 p.section-intro {
+    color: orange;
+}
+
+p.emphasis {
+    font-size: larger;
+    font-weight: 700;
     color: orange;
 }

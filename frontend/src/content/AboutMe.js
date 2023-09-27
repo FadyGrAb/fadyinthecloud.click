@@ -41,7 +41,12 @@ const AboutMe = () => {
           </p>
           <p>
             Ah! I almost forgot! I love sports (weight lifting and running
-            mostly), playing guitar, and I love Rubik's Cubes 😉
+            mostly), playing guitar, I enjoy technical writing (I write on
+            dev.to, check out my "
+            <a href="#" rel="noreferrer" target="_blank">
+              Rust learning Series
+            </a>
+            " 🦀🦀), and I love Rubik's Cubes 😉
           </p>
         </div>
         <img src={mypic} alt="me" className="profile-pic"></img>

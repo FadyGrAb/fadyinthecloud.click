@@ -9,6 +9,14 @@ const LetsConnect = () => {
   return (
     <div className="subsection">
       <h2>Let's Connect</h2>
+      <p className="section-intro">
+        I hope by now you got to know me a little more better. Now let's connect
+        in person by any of the following means.<br></br> Just a little note
+        about the YouTube channel, I intend to use it to publish videos for my
+        "Data Analytics Made Easy Series" which I'll create one at a time. So,
+        you might find it empty or doesn't contain much right now. Don't worry
+        I'll fill it with videos pretty soon! 😉
+      </p>
       <div className="content" target="_blank">
         <a
           href="https://www.linkedin.com/in/fady-abdelmassih/"
