@@ -118,7 +118,15 @@ const Journey = () => {
               In mid 2022, I managed to clear the AWS Certified Data Analytics
               Specialty cert! Since then I went full throttle to learn about the
               Cloud and Data Engineering on the Cloud. Later, I obtained several
-              cloud certs for AWS and Azure.
+              cloud certs for AWS and Azure. (check out my{" "}
+              <a
+                href="https://www.credly.com/users/fady-louis/badges"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Credly profile
+              </a>
+              )
             </p>
           </div>
         </div>
