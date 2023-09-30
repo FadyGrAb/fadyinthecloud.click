@@ -1,3 +1,10 @@
+@media screen and (max-width: 1100px){
+    .intro .subsection {
+        background-color: rgba(0, 0, 0, 0) !important;
+    }
+
+  }
+
 @media screen and (max-width: 800px) {
     .sections-container {
         padding: 0 !important;
@@ -19,6 +26,10 @@
         justify-content: center;
         margin: auto;
     }
+    .intro .subsection{
+        padding: 0% !important;
+    }
+    
     
 }
 
@@ -141,4 +152,8 @@ p.emphasis {
 
 .text a {
     color: orange;
+}
+
+.intro {
+    padding-bottom: var(--intro-adjustment-padding-bottom);
 }
