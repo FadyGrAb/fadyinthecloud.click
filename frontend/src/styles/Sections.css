@@ -2,6 +2,9 @@
     .intro .subsection {
         background-color: rgba(0, 0, 0, 0) !important;
     }
+    img.profile-pic {
+        margin-top: 0% !important;
+    }
 
   }
 
