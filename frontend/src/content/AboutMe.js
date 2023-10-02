@@ -21,7 +21,7 @@ const AboutMe = () => {
             journey since then and later I became obsessed and fell in love with
             <i> Data Engineering</i> and <i>Cloud</i>! I cleared certs, won in a
             Hackathon, wrote several technical articles (don't forget to check
-            out the "Data Analytics Made Easy" at the top), learned web
+            out the "Data Analytics Made Simpler" at the top), learned web
             development, and built the website that you are visiting right now
             myself!
           </p>

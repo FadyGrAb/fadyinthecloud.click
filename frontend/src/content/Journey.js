@@ -223,8 +223,8 @@ const Journey = () => {
               This is just the beginning! A lot more yet to come!
             </p>
             <p>
-              I plan to launch my "Data Analytics Made Easy" learning series and
-              add my Data Engineering projects here in my Website. So stay
+              I plan to launch my "Data Analytics Made Simpler" learning series
+              and add my Data Engineering projects here in my Website. So stay
               tuned!
             </p>
           </div>
